@@ -59,36 +59,24 @@ chmod u+x xlarig
 
 <h3><u>The commandline to start mining Scala (XLA)</u></h3>
 
-<p>./xmrig -o RANDOMXPOOLSERVER:PORT -u COIN:WALLETADDRESS.WORKERNAME#REFERRALCODE -p x</p>
+```
+./xlarig --donate-level 0 -o mine.scalaproject.io:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k
+```
 
-**Example from video:**
+<h3><u>Other commands which can be usefull</u></h3>
 
-<p>./xmrig -o rx-eu.unmineable.com:3333 -u XNO:WALLETADDRESS.PI5#Bloxy-Labs -p x</p>
+To start a screen session use the command:
+```
+screen
+```
+To disconnect from a screen session use the key combination:
+Ctrl-a and d
 
-**Other pool servers:**
+To reconnect to a screen session use the command:
+```
+screen -r
+```
 
-<p>Global: rx.unmineable.com:3333</p>
-<p>Europe: rx-eu.unmineable.com:3333</p>
-<p>United States: rx-us.unmineable.com:3333</p>
-<p>Asia: rx-asia.unmineable.com:3333</p>
+We hope you have fun mining XLA (Scala)!!!
 
-<h3><u>Referral code</u></h3>
-To get a small discount on the UnMineable mining fees use the referral code:
-
-**Bloxy-Labs**
-It will reduce your mining fee from 1% to 0.75% and you will also support our YT channel ;)
-
-<h3><u>The commandline to start mining Zephyr on MiningOcean</u></h3>
-
-<p>./xmrig -o POOLSERVER:PORT -u WALLETADDRESS -p x</p>
-
-**Example from video:**
-
-<p>./xmrig -o de-zephyr.miningocean.org:5332 -u WALLETADDRESS -p x</p>
-
-
-<h3><u>screen commands</u></h3>
-<p>screen => to start new screen session</p>
-<p>ctrl-a and d => to leave screen session and keep it running</p>
-<p>screen -r => to reconnect to the screen session</p>
 

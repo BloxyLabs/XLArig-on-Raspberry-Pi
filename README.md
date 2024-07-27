@@ -29,32 +29,35 @@ sudo apt install screen
 ```
 sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 ```
-
-
-
-
-
-<h3><u>The commands to install XMRIG</u></h3>
+Now get the latest XLArig code:
 
 ```
-sudo apt update
-sudo apt upgrade
+git clone https://github.com/scala-network/XLArig.git
+```
 
-Reboot if necessary => sudo reboot now
+<h3><u>The commands to compile and build XLArig</u></h3>
 
-sudo apt-get install screen
-sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
-git clone https://github.com/xmrig/xmrig.git
-cd xmrig
+Go to the XLArig directory by typing cd XLArig and enter the following command:
+
+```
 mkdir build
-cd build
-cmake ..
-make
-
-screen
 ```
 
-<h3><u>The commandline to start mining on Unmineable</u></h3>
+Now go to the new build directory by typing cd build and enter the following commands:
+
+```
+cmake ..
+```
+```
+make
+```
+
+After you executed the above commands you must give your miner execution rights with the following command:
+```
+chmod u+x xlarig
+```
+
+<h3><u>The commandline to start mining Scala (XLA)</u></h3>
 
 <p>./xmrig -o RANDOMXPOOLSERVER:PORT -u COIN:WALLETADDRESS.WORKERNAME#REFERRALCODE -p x</p>
 

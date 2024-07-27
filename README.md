@@ -62,6 +62,9 @@ chmod u+x xlarig
 ```
 ./xlarig --donate-level 0 -o mine.scalaproject.io:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k
 ```
+**IMPORTANT**
+<br>
+Customize the command with your wallet address and worker name. Execute the command in a Screen session by typing the command screen and make sure you are in the build directory before running it.
 
 <h3><u>Other commands which can be usefull</u></h3>
 

@@ -6,6 +6,15 @@ Check also our YouTube channel for instructions and other related information [Y
 <br>
 If you had fun with the projects, please consider buying us a [cup of coffee](https://www.buymeacoffee.com/bloxylabs "cupofcoffee") :coffee:.
 
+<h3><u>The commands to update and upgrade your Pi</u></h3>
+
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
+
 <h3><u>The commands to install XMRIG</u></h3>
 
 ```

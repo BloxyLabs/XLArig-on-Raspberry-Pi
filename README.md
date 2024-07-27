@@ -15,6 +15,25 @@ sudo apt update
 sudo apt upgrade
 ```
 
+<h3><u>The command to reboot your Pi</u></h3>
+
+```
+sudo reboot now
+```
+
+<h3><u>The commands to install screen and other necessary tools and libraries </u></h3>
+
+```
+sudo apt install screen
+```
+```
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+```
+
+
+
+
+
 <h3><u>The commands to install XMRIG</u></h3>
 
 ```
